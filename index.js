@@ -14,11 +14,13 @@ app.get('/',(req,res)=>{
 })
 const usuarios =[
     {
+        id:1,
         user:'Federico',
         password: 'Fede2121',
         accessType: 2
     },
     {
+        id:2,
         user:'Andres',
         password: 'Andy25',
         accessType: 1
